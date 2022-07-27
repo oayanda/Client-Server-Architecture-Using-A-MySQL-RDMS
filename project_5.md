@@ -52,3 +52,21 @@ Reloads the grant tables in the mysql database enabling the changes to take effe
 FLUSH PRIVILEDES;
 ```
 ![alt text](images/10.png)
+
+Change the bind address to 0.0.0.0 to allow connect from a remote host.
+```bash
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+![alt text](images/11.png)
+Restart the mqsl service.
+```bash
+sudo systemctl restart mysql
+```
+![alt text](images/12.png)
+
+Test Connection
+From the client instance, connect to the mysql server instance.
+```bash
+sudo mysql -u clent_user -h 172.31.85.132 -p
+```
+![alt text](images/13.png)
