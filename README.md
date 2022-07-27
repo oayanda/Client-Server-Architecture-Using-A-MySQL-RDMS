@@ -1,2 +1,2 @@
 # Client-Server-Architecture-Using-A-MySQL-RDMS
-Client/Server Architecture Using A MySQL Relational Database Management System
+How to Implement a Client Server Architecture using MySQL Database Management System (DBMS) using Two (2) AWS Ec2 instances.
